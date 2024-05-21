@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+
+
 public class ContaTerminal {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -11,7 +13,7 @@ public class ContaTerminal {
         System.out.println("Digite o número da agência: ");
         String numeroAgencia = scanner.next();
 
-        scanner.nextLine(); 
+        scanner.nextLine();
 
         System.out.println("Digite o seu nome: ");
         String nome = scanner.nextLine();
